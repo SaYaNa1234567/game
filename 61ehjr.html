@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		.box{
+			position: absolute;
+		}
+	</style>
+</head>
+<body style="background-image: url(0.jpg); background-size: cover">
+	
+<div style="width: 200px; height: ; background: orange;">
+	
+	<h1>ОЧКИ: <span class="sc"></span></h1>
+	<h1 class="text1">Собака</h1>
+	<h1 class="text2">Птица</h1>
+	<h1 class="text3">Самолет</h1>
+	<h1 class="text4">Кошка</h1>
+	<h1 class="text5">НЛО</h1>
+	<h1 class="text6">Корова</h1>
+</div>
+
+<img src="1.png" class="box img1" style=" top: 500px; left: 500px; height: 50px">
+<img src="2.png" class="box img2" style=" top: 200px; left: 1000px; height: 50px">
+<img src="3.png" class="box img3" style=" top: 100px; left: 300px; height: 100px">
+<img src="cat.png" class="box img4" style=" top: 600px; left: 900px; height: 50px">
+<img src="51.jpg" class="box img5" style=" top: 100px; left: 750px; height: 100px">
+<img src="6.png" class="box img6" style=" top: 200px; left: 800px; height: 50px">
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+let number = 0;
+   document.querySelector(".sc").innerHTML=number;
+
+  document.querySelector(".img1").onclick = function(){
+	alert("Сабабка")
+	document.querySelector(".img1").style.display= "none";
+    number = number +1;	
+    document.querySelector(".sc").innerHTML=number;
+    document.querySelector(".text1").style.textDecoration="line-through";
+}
+
+  document.querySelector(".img2").onclick = function(){
+	alert("Птисса")
+	document.querySelector(".img2").style.display= "none";
+    number = number +1;	
+    document.querySelector(".sc").innerHTML=number;
+    document.querySelector(".text2").style.textDecoration="line-through";
+}
+
+  document.querySelector(".img3").onclick = function(){
+	alert("Смалет")
+	document.querySelector(".img3").style.display= "none";
+    number = number +1;	
+    document.querySelector(".sc").innerHTML=number;
+    document.querySelector(".text3").style.textDecoration="line-through";
+}
+
+  document.querySelector(".img4").onclick = function(){
+	alert("Кашка")
+	document.querySelector(".img4").style.display= "none";
+    number = number +1;	
+    document.querySelector(".sc").innerHTML=number;
+    document.querySelector(".text4").style.textDecoration="line-through";
+}
+
+  document.querySelector(".img5").onclick = function(){
+	alert("НЛО")
+	document.querySelector(".img5").style.display= "none";
+    number = number +1;	
+    document.querySelector(".sc").innerHTML=number;
+    document.querySelector(".text5").style.textDecoration="line-through";
+}
+
+ document.querySelector(".img6").onclick = function(){
+	alert("Корова")
+	document.querySelector(".img6").style.display= "none";
+    number = number +1;	
+    document.querySelector(".sc").innerHTML=number;
+    document.querySelector(".text6").style.textDecoration="line-through";
+}
+</script>
+
+</body>
+</html>
